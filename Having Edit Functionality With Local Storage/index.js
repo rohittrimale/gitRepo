@@ -23,7 +23,6 @@ function showUserONScreeen(userDetails) {
 
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "Delete";
-  // deleteBtn.className = "delete-btn";
 
   const editBtn = document.createElement("button");
   editBtn.textContent = "Edit";
@@ -53,6 +52,5 @@ function showUserONScreeen(userDetails) {
   listItem.appendChild(editBtn);
   parentList.appendChild(listItem);
 
-  // list.innerHTML += '<button class="delete-btn"  >Delete</button>';
-  // unorderList.appendChild(list);
+  
 }
