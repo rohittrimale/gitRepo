@@ -8,6 +8,8 @@ filter.addEventListener("keyup", function (event) {
   for (let i = 0; i < fruitItems.length; i++) {
     let currentFruitText =
       fruitItems[i].firstChild.textContent.toLocaleLowerCase();
+
+   
     let currentDescText = fruitItems[i]
       .querySelector(".description")
       .textContent.toLowerCase();

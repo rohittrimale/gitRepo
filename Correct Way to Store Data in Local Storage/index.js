@@ -12,5 +12,7 @@ function handleFormSubmit(event) {
   };
 
   const detail = JSON.stringify(details);
+  console.log(detail);
   localStorage.setItem("User Details", detail);
 }
+

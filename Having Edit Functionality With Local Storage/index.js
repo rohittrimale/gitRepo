@@ -34,15 +34,13 @@ function showUserONScreeen(userDetails) {
 
   editBtn.addEventListener("click", function () {
     let usernameInput = document.getElementById("username");
-    usernameInput.value = userDetails.username;
     let emailInput = document.getElementById("email");
-    usernameInput.value = userDetails.username;
     let phoneInput = document.getElementById("phone");
+
+
     usernameInput.value = userDetails.username;
     emailInput.value = userDetails.email;
     phoneInput.value = userDetails.phone;
-
-    console.log(usernameInput);
 
     console.log(userDetails.username, userDetails.email);
     localStorage.removeItem(userDetails.email);

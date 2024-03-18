@@ -20,4 +20,4 @@ function handleFormSubmit(event) {
   unorderList.appendChild(list);
 }
 
-module.exports = handleFormSubmit;
+// module.exports = handleFormSubmit;
